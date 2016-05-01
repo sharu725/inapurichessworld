@@ -130,10 +130,7 @@
   	margin: 0 auto;
   	display: block;
   }
-  h1 {
-  	font-family: 'Signika', sans-serif; //Emerald logo font
-    font-weight: 600;
-  }
+
   &:after {
   	display: block;
     content: '';
@@ -143,6 +140,15 @@
     background-color: lighten($text-color, 70%);
   }
 }
+
+            @media (max-width: 700px) {
+    
+                    #header img {
+                    width: 70%;
+                    margin-left: 1em;
+                    } 
+
+            }
 
 /* Posts */
 
