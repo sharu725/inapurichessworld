@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nil
 permalink: /tournament/
 ---
 
