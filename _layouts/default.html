@@ -1,27 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/solo.css">
-  <link rel="stylesheet" href="/css/syntax.css">
-  {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
-  <link rel="stylesheet" href="/css/rrssb.css">
+<html>
 
-  <script src="/scripts/jquery.js"></script>
-  <link rel="canonical" href="{{ site.ull }}" />
-</head>
+{% include head.html %}
+
 <body>
-  <article>
-   <div class="container">
-    <h1><a href="./">{{ site.tag_text }}</a></h1>
-    {{ content }}
-    </div>
-  </article>
-<script src="{{ site.url }}/scripts/rrssb.min.js"></script>
+	<div id="wrap">
+	  	
+	  	<!-- Navigation -->
+	  	{% include menu.html %}
+    
+    <!-- Icon menu -->
+	  <a {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
+	  	<div id="menu"></div>
+	  </a>
+
+      <!-- Header -->
+      {% if site.custom_header == true %}
+        {% include header-custom.html %}
+      {% else %}
+        {% include header.html %}
+      {% endif %}
+
+    <!-- Main content -->
+	  <div id="container">
+		  
+		<main>
+
+			{{ content }}
+
+	  </main>
+		
+		  <!-- Pagination links -->
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page == 1 %}
+            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
+          {% elsif paginator.previous_page%}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
+          {% else %}
+            <span class="page-item">&laquo;</span>
+          {% endif %}
+        
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <span class="page-item">{{ page }}</span>
+            {% elsif page == 1 %}
+              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
+            {% endif %}
+          {% endfor %}
+        
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
+          {% else %}
+            <span class="page-item">&raquo;</span>
+          {% endif %}
+        </div>
+        {% endif %}
+
+	  </div>
+	    
+	    <!-- Footer -->
+	    {% include footer.html %}
+
+	    <!-- Script -->
+      {% include script.html %}
+
+	</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </body>
 </html>

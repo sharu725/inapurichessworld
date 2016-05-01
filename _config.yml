@@ -1,12 +1,35 @@
 # Site settings
-title: Inapuri Chess World
-tag_text: InapuriChessWorld
-description: Learn chess better
-url: "http://127.0.0.1:4000"
-
-font-awesome-include: true # make this false if you don't need font-awesome
+title: Inapuri Chess World | Learning chess is now easy!
+description: "An online chess coaching company"
+url: "http://inapurichessworld.com"
+author:
+  name: "Ramya Inapuri"
+  email: "info@kidschessworld.com"
 
 # Build settings
 markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title/
+paginate: 8
+paginate_path: /page:num/
 
-exclude: ["README.md"]
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
+
+
+gems: [jekyll-paginate]
