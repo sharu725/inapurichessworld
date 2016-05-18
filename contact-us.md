@@ -3,6 +3,7 @@ title: Contact Us
 date: 2015-02-10T06:47:52+00:00
 author: sharath
 layout: page
+permalink: /contact-us/
 ---
 We would love to hear from you. .
 
@@ -14,7 +15,7 @@ We would love to hear from you. .
 
 
 <form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST" enctype="multipart/form-data">
-        <ul class="contact-ul" id="form-ul">
+        <ul class="contact-ul">
             <li class="contact-li">
                 <label class="contact-label" for="name">Name:</label>
                 <input type="text" placeholder="Your name" id="name" class="contact-input" name="name" tabindex="1"/>

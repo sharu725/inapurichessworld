@@ -1,6 +1,7 @@
 ---
 layout: page
+title: Tournament
 permalink: /tournament/
 ---
 
-# Tournament data will be up soon 
+## Tournament page is coming soon
