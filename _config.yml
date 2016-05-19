@@ -1,6 +1,6 @@
 
-title: WebJeda | A modern web development blog
-description: "Webjeda Sidebar is an elegant theme which offers a nice toggleable sidebar. The theme stands out in its features like changable color scheme and pre-installed sharebar, analytics and disqus. It is suitable for all kinds of blogging."
+title: ICW | Inapuri Chess World - Online Chess Coaching
+description: "Inapurichessworld is a company found to teach chess to kids online. We have a uniwue way of teaching and a good success rate as well."
 author: sharath dt
 
 
@@ -27,9 +27,9 @@ email: mailto:hello@webjeda.com
 feedburner-subscribe: https://feedburner.google.com/fb/a/mailverify?uri=webjedablog&amp;loc=en_US
 
 #Other
-analytics: 'UA-65551407-1'
-disqus-shortname: webjeda-sample    #Disqus comments
-google-custom-search-cx: '017575011755499056211:vwrwldvgq6s'        #Create Custom Search Engine(CSE) with google and find this ID in the code they provide.
+analytics: ''
+disqus-shortname:     #Disqus comments
+google-custom-search-cx: ''        #Create Custom Search Engine(CSE) with google and find this ID in the code they provide.
 
 
 destination: ./_site
