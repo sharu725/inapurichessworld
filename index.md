@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Inapuri's Chess World
+<h1 class="post-title" style="text-align:center">Inapuri's Chess World</h1>
 
 Step into the world of Inapuri&#8217;s Chess which offers fun filled chess coaching classes and incredible value for the price &#8211; hands down. Chess is one of those special cases , where online classes are not only effective but often better than in person classes. We have 3 titled players on our team and all of our staff have at least 4 years of chess coaching experience with both children and adults.
 

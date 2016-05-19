@@ -40,6 +40,5 @@ paginate_path: /page:num/
 sass:
     style: compressed
     
-gems: [jekyll-paginate]
 
 author-image: /img/ramya-inapuri.jpg
