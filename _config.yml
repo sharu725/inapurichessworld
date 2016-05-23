@@ -34,8 +34,7 @@ google-custom-search-cx: ''        #Create Custom Search Engine(CSE) with google
 
 destination: ./_site
 permalink: /:title/
-paginate: 6
-paginate_path: /page:num/
+
 
 sass:
     style: compressed
