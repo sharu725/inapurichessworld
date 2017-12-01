@@ -13,29 +13,36 @@ We would love to hear from you. .
 
 **Email: **<kids.chessworld@gmail.com>
 
+## Wite us a message
 
-<form id="contact-form" class="form" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST" enctype="multipart/form-data">
-        <ul class="contact-ul">
-            <li class="contact-li">
-                <label class="contact-label" for="name">Name:</label>
-                <input type="text" placeholder="Your name" id="name" class="contact-input" name="name" tabindex="1"/>
-            </li>
-            <li class="contact-li">
-                <label class="contact-label" for="email">Email:</label>
-                <input type="email" placeholder="Your email" id="email" class="contact-input" name="email" tabindex="2"/>
-            </li>
-            <li class="contact-li">
-                <label class="contact-label" for="phone">Phone:</label>
-                <input type="tel" placeholder="Your phone number" id="phone" class="contact-input" name="phone" tabindex="3"/>
-            </li>
-        
-            <li class="contact-li">
-                <label class="contact-label" for="message">Message:</label>
-                <textarea class="contact-textarea" placeholder="Your message" class="contact-input" rows="4" id="message" name="message" tabindex="4"></textarea>
-            </li>
-            
-        </ul>
-        <input type="submit" value="Send" id="submit"/>
-        <input type="hidden" name='redirect_to' value="http://inapurichessworld.com/thank-you/" />
-        
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted) {window.location='http://inapurichessworld.com/thank-you/';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLScQosY_pm1bqIwnxm8fP4ATv3K_BH1Ztoso36iqGJw2r4Ph3g/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" name="entry.1334793012" required>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email" name="entry.897443989" required>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <input type="tel" class="form-control" placeholder="Phone" name="entry.881340643" required>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="form-group">
+            <textarea class="form-control" id="" cols="30" rows="7" placeholder="I want online chess coaching for..." name="entry.1689970116"></textarea>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary">
+        </div>
+    </div>
+</div>
 </form>
