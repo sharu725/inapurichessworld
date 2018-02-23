@@ -6,6 +6,7 @@ categories:
     - work
     - projects
 layout: post
+published: false
 ---
 Learning is the act of acquiring new or modifying and reinforcing existing knowledge, behaviors, skills, values, or preferences which may lead to a potential change in synthesizing information, depth of the knowledge, attitude or behavior relative to the type and range of experience.
 
