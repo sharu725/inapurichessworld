@@ -109,7 +109,7 @@ compress_html:
 
 ####################################################################################################
 
-destination: _blackcurrant
+# destination: _blackcurrant
 
 exclude: 
     - .git
