@@ -1,46 +1,49 @@
 ---
 layout: default
 ---
-<style>
-table {
-  margin: 15px 0;
-  border-collapse: collapse;
-  width: 100%;
-  padding: 0; }
-  table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin: 0; }
-</style>
-<div class="page-content">
-<article id="post-page" >
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-{{ content }}
+<!--                            
+This layout is used for posts. Changing anything here will affect all posts(not pages)
+ -->
+{% include breadcrumbs.html %}
+ 
+<div class="meta">
+  <p>
+      <small>
+          <span>
+          <i class="fa fa-calendar" aria-hidden="true"></i> {{page.date | date_to_string }}&nbsp;
+          </span>
+          <span>
+              <i class="fa fa-user" aria-hidden="true"></i> {{page.author }}&nbsp;
+          </span>
 
-
-</article>
-{% include share.html %}
-{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
+          <span>
+             <i class="fa fa-clock-o" aria-hidden="true"></i> {% include reading-time.html %}
+          </span>
+      </small>
+  </p>
 </div>
- <!-- Disqus -->
 
+<div class="featured-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
 
+<article>
+    {% if site.toc %}{% include toc.html html=content class="toc.rev.clearfix" %}{% endif %}
+    {{content}}
+</article>   
+
+<hr class="dashed">
+
+{% if site.share %}
+{% include share-buttons.html %}
+{% endif %}
+
+{% if page.categories %}
+{% include categories-post.html %}
+{% endif %}
+
+{% if site.disqus %}
+{% include disqus.html %}
+{% endif %}
+
+{% if site.recent-posts %}
+{% include recent.html %}
+{% endif %}

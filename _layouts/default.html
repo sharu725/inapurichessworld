@@ -1,79 +1,167 @@
 ---
+# layout: compress 
 ---
+
+
+<!-- 
+This layout is used in all pages. Making changes here will efect all pages. We recommend not to change anything here.
+ -->
 
 <!DOCTYPE html>
 <html lang="en">
+<head>
 
-{% include head.html %}
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Prefetch DNS for faster page speed -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//google-analytics.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//fonts.gstatic.com">
+{% if page.url contains 'blog' %}
+<!-- Prefetch disqus DNS for faster page speed -->
+<link rel="dns-prefetch" href="https://{{site.disqus}}.disqus.com/">
+{% endif %}
+
+{% if page.url == '/' %}
+<!-- Prerender next pages for faster page speed -->
+<link rel="prerender" href="{{site.baseurl}}/contact/" />
+<link rel="prerender" href="{{site.baseurl}}/blog/" />
+{% endif %}
+
+
+<!-- SEO meta tags -->
+{% seo %}
+
+{% if page.layout != 'post' %}
+<meta property="og:image" content="{{site.url}}{{site.default-image}}" />
+{% endif %}
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+
+
+<!-- Fontawesome Icons CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Icons -->
+<!--
+Replace these icons with your own.
+ -->
+
+<link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/assets/img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/img/apple-icon-152x152.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="{{site.baseurl}}/assets/img/android-icon-192x192.png">
+<link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+
+
+{% if site.analytics %}
+<!-- 
+Google Analytics code. <head> tag is the right place for analytics code as directed by Google. This is unofficial light version which loads blazing fast! Implemented for faster page load.
+ -->
+{% include analytics-lite.html %}
+{% endif %}
+
+
+</head>
 
 <body>
-
-    <div id="wrapper">
-
-       {% include sidebar.html %}
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-           <a href="#" id="menu-toggle" style="position:fixed;margin-left: -10px;">
-           <svg style="width: 25px" viewBox="0 0 18 15">
-          <path fill="{{site.accent-color}}" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="{{site.accent-color}}" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="{{site.accent-color}}" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-        </a>
-
-            <div class="container-fluid">
-                <div class="col-md-8">
-                    {{ content }}
+	<div class="wrapper">
+	    <div class="container-grid">
+           <div class="sidebar">
+               <div class="author-container shadow">
+                <div class="author"><img src="/images/{{site.author.image}}" width="100%" height="auto;" alt="{{site.title}}" onclick="location.href='/'"></div>
+                <div class="about text-center"><h1 class="title"><a href="/{{site.baseurl}}">{{site.author.name}}</a></h1></div>
+                <div class="bio text-center"><p class="m0">{{site.short-description}}</p></div>
+                <hr class="dashed">
+                <div class="social text-center">
+                    <ul class="portfolio p0">
+                        <li><a href="/assessment/">Assessment</a></li>
+                        <li><a href="/students/">Students</a></li>
+                        <li><a href="/students/">Tournaments</a></li>
+                    </ul>
+                    <ul class="sm p0 m0a">
+                        <li><a href="{{site.author.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="{{site.author.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="{{site.author.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="{{site.author.github}}"><i class="fa fa-github"></i></a></li>
+                    </ul>
                 </div>
-            <div class="col-md-4 text-center">
-                    <div id="author-div">
-                        <img class="img-circle" width="200px" src="{{site.author-image}}">
-                        <p>Hi, I'm <strong>Ramya Inapuri</strong>. I'm a <strong>chess coach</strong> from Arizona.</p>
-                        <p>I have been teaching chess since 2010. Learn more <a href="/about/"><strong>about me</strong></a>.</p> 
-                        
-                        <p>For online chess coaching contact me <a href="/contact-us/"><strong>here</strong></a>.</p>
-                        <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1409800599270506";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-                        <p style="display: inline-block">Like us on facebook&nbsp;&nbsp;<div class="fb-like" data-href="https://www.facebook.com/InapuriChessWorld/" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div></p>
-                    </div>
                 </div>
+           </div>
+           <div class="main">
+              <div class="main-container shadow">
+                   <div class="title-space">
+                       <h1>{{page.title}}</h1>
+                       <a href="/search/"><i class="fa fa-2x fa-search"></i></a>
+                   </div>
+                    <hr class="dashed">
+                    {{content}}
+                    <hr class="dashed">
+                    {% include footer.html %}
+               </div>
+           </div>
+            
+	    </div>
+	    
+	</div>
+	
 
-                
+	
+<!-- JQuery  -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
+<!-- SlideDown on click -->
+<!-- <script>
+    $(document).ready(function(){
+        $(".doshow").click(function(){
+            var that = $(this).next('.noshow');
+            $(that).slideToggle('slow');
+            $('.noshow').not(that).slideUp('slow');
+        });
+        });
+</script> -->
+
+<!-- Reveal items on scroll -->
+<script type="text/javascript" src="{{site.baseurl}}/js/scrollreveal.min.js"></script> 
+<script type="text/javascript" src="{{site.baseurl}}/js/css-polyfills.min.js"></script> 
+<script>
+    window.sr = ScrollReveal();
+            sr.reveal('.rev', { duration: 1000 });
+</script>
+{% if page.type == 'home' %}
+<script>
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},5000);
+	});
+});
+</script>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<script>
+$("button").click(function(){
+    $(".disqus").toggle();
+    $(".comments").toggle();
+});    
+</script>
 
 
-   
-   
-    </div>
-    <!-- /#wrapper -->
-
-    <!-- jQuery -->
-    <script src="{{site.baseurl}}/js/jquery.js"></script>
-     
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 
 
-{% include analytics.html %}
 
-     
-
+{% endif %}
 </body>
-
 </html>

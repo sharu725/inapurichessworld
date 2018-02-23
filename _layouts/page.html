@@ -2,7 +2,12 @@
 layout: default
 ---
 
-<div class="page-content">
-<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-{{ content }}
-</div>
+<!--   
+This layout is used for pages for example about.md, contact.ms etc... 
+Making any change will effect all the pages(not posts) -->
+<main>
+{% include breadcrumbs.html %}  
+<article>
+    {{content}}
+</article> 
+</main>

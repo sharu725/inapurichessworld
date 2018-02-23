@@ -1,16 +1,142 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
+$base-ff:          'Work Sans', sans-serif;
+$base-ff:          'Inconsolata', monospace;
+$base-ff:          'Raleway', sans-serif;
+$head-ff:          'Merriweather', serif;
+$head-ff:          'Roboto Mono', monospace;
+$head-ff:          'Overpass Mono', monospace;
+$head-ff:          'Raleway', sans-serif;
+$base-fs:          18px;
+$base-fw:          400;
+$small-fs:         $base-fs * 0.775;
+$base-lh:          1.7;
+$color:            #555;
+$brand-color:      #ff8a80;
+$brand-color:      #1eca19;
+$h-color:          #eee;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
-$font-family: 'PT Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sidebar-color: {{site.sidebar-color}};
-$accent-color: {{site.accent-color}}; 
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        800px;
 
+
+
+
+$name-color:    $brand-color;
+$work-color:    $brand-color;
+$write-color:   $brand-color;
+$care-color:    $brand-color;
+/***
+ *                                                                                        
+ *     ,-----.       ,--.                               ,--.                              
+ *    '  .--./ ,---. |  | ,---. ,--.--.     ,---.  ,---.|  ,---.  ,---. ,--,--,--. ,---.  
+ *    |  |    | .-. ||  || .-. ||  .--'    (  .-' | .--'|  .-.  || .-. :|        || .-. : 
+ *    '  '--'\' '-' '|  |' '-' '|  |       .-'  `)\ `--.|  | |  |\   --.|  |  |  |\   --. 
+ *     `-----' `---' `--' `---' `--'       `----'  `---'`--' `--' `----'`--`--`--' `----' 
+ *                                                                                        
+ */
+/*
+
+// Select one of the schemes in configuration file _config.yml
+//{% if site.color-scheme == null or site.color-scheme == 0 %}
+// $brand-color:   {{site.name-color}};
+// $name-color:    {{site.name-color}};
+// $work-color:    {{site.work-color}};
+// $write-color:   {{site.write-color}};
+// $care-color:    {{site.care-color}};
+//{% endif %}
+
+//Default
+{% if site.color-scheme == 1 %}
+$brand-color:   slateblue;
+$name-color:    slateblue;
+$work-color:    #008080;
+$write-color:   #3e525a;
+$care-color:    #cb2d3e;
+{% endif %}
+
+// RGB
+{% if site.color-scheme == 2 %}
+$brand-color:   #EE6352;
+$name-color:    #EE6352;
+$work-color:    #59CD90;
+$write-color:   #33A1FD;
+$care-color:    #FAC05E;
+{% endif %}
+
+
+// Paper
+{% if site.color-scheme == 3 %}
+$brand-color:   #17af84;
+$name-color:    #17af84;
+$work-color:    #4cc8ce;
+$write-color:   #8B95C9;
+$care-color:    #e6a450;
+{% endif %}
+
+// Brick
+{% if site.color-scheme == 4 %}
+$brand-color:   #FC3A52;
+$name-color:    #FC3A52;
+$work-color:    #34d65f;
+$write-color:   #F9B248;
+$care-color:    #2A363B;
+{% endif %}
+
+// Dark
+{% if site.color-scheme == 5 %}
+$brand-color:   #192243;
+$name-color:    #192243;
+$work-color:    #520b12;
+$write-color:   #042a1c;
+$care-color:    #111111;
+{% endif %}
+
+*/
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+ 
+
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "simple-sidebar",
-        "layout",
-        "custom",
-        "form",
-        "syntax-highlighting"
+        "google-fonts",
+        "base",
+        "grid",
+        "colors",
+        "style",
+        "post",
+        "toc",
+        "table",
+        "contact",
+        "search",
+        "pagination",
+        "syntax-highlighting",
+        "breadcrumbs",
+        "recent",
+        "author",
+        "share",
+        "skillbar",
+        "pop-up",
+        "custom"
+    
 ;

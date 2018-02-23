@@ -1,0 +1,14 @@
+- project:      Hubble
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  fa-icon:      '<i class="fa fa-2x fa-wpexplorer" aria-hidden="true" style="color:dodgerblue"></i>'
+  link:         ''
+  
+- project:      Refueled ISS
+  description:  Successfully refueled International Space Station using RRM technology.
+  fa-icon:      '<i class="fa fa-2x fa-battery-full" aria-hidden="true" style="color: forestgreen"></i>'
+  link:         ''
+  
+- project:      Climate Change 
+  description:  Climate change is a change in the statistical distribution of weather...
+  fa-icon:      '<i class="fa fa-2x fa-globe" aria-hidden="true" style="color: #da2525"></i>'
+  link:         ''
