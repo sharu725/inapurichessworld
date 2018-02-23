@@ -5,9 +5,10 @@ permalink: /students/
 description: Our students have achieved mastery in chess within a span of 6 months. We provide personal attention to each and every kid so that their individual talent is explored and nourished.
 ---
 
-Our students have achieved mastery in chess within a span of 6 months. We provide personal attention to each and every kid so that their individual talent is explored and nourished.
 
+## This page is under construction
 
+<!-- 
 <div>
 {% for student in site.data.students %}
 <a class="nostyle" href="{{site.baseurl}}{{student.url}}">
@@ -21,4 +22,4 @@ Our students have achieved mastery in chess within a span of 6 months. We provid
     </div>
 </a>
 {% endfor %}
-</div>
+</div> -->
