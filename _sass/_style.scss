@@ -345,6 +345,11 @@ a.nostyle {
         a {
             color: white !important;
             background-color: $brand-color;
+            &:hover, &:active, &:focus {
+                background-color: #007bff !important;
+                border-color: #007bff !important;
+            }
+            
         }
     }
 }
@@ -377,4 +382,11 @@ a.nostyle {
 @keyframes fade-image-in {
   0%   { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.active {
+    a, a:hover, a:active, a:focus {
+          background-color: #007bff !important;
+          border-color: #007bff !important;
+    }
 }
