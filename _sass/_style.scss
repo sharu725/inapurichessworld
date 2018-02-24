@@ -336,3 +336,45 @@ a.nostyle {
 .copy {
     color: $grey-color;
 }
+
+.levels {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        a {
+            color: white !important;
+            background-color: $brand-color;
+        }
+    }
+}
+
+.student {
+    .student-image {
+        height: 200px;
+        background-size: cover;
+        background-position: center center;
+        -webkit-animation: fade-image-in 3s; /* Safari 4+ */
+        -moz-animation:    fade-image-in 3s; /* Fx 5+ */
+        -o-animation:      fade-image-in 3s; /* Opera 12+ */
+        animation:         fade-image-in 3s; /* IE 10+, Fx 29+ */
+    }
+}
+
+
+@-webkit-keyframes fade-image-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fade-image-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fade-image-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade-image-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}

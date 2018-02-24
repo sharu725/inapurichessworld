@@ -1,20 +1,86 @@
 - student:      Vineel
   description:  Successfully repaired the Hubble Telescope in space! Now I see you.
   image:        /images/students/vineel-inapuri-chess-world-student-portrait.JPG
-  link:         ''
+  level:         level3
   
 - student:      Meghana
   description:  Successfully repaired the Hubble Telescope in space! Now I see you.
   image:        /images/students/meghana-inapuri-chess-world-student-portrait.jpg
-  link:         ''
+  level:         level3
 
   
 - student:      Navya
   description:  Successfully repaired the Hubble Telescope in space! Now I see you.
   image:        /images/students/navya-inapuri-chess-world-student-portrait.jpg
-  link:         ''
+  level:         level2
+  
+  
+- student:      Enakshi
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  image:        /images/students/enakshi-inapuri-chess-world-student-portrait.jpg
+  level:         level2
+  
+- student:      Anvila
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  image:        /images/students/anvila-inapuri-chess-world-student-portrait.jpg
+  level:         level2
+  
   
 - student:      Ritvik
   description:  Successfully repaired the Hubble Telescope in space! Now I see you.
   image:        /images/students/ritvik-inapuri-chess-world-student-portrait.jpg
-  link:         ''
+  level:         level3
+
+  
+- student:      Manu
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  image:        /images/students/manu-inapuri-chess-world-student-portrait.jpg
+  level:         level1
+
+  
+- student:      Anuhya G
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/anuhya-inapuri-chess-world-student-portrait.jpg
+  level:         level1
+  
+- student:      Sahiti
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/sahiti-inapuri-chess-world-student-portrait.jpg
+  level:         level1
+  
+- student:      Akhil G
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/akhil-inapuri-chess-world-student-portrait.jpg
+  level:         level1
+  
+- student:      Suhas
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/suhas-inapuri-chess-world-student-portrait.jpg
+  level:         level1
+  
+- student:      Sumedh Kotranvannar
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/sumedh-inapuri-chess-world-student-portrait.jpg
+  level:         level2
+  
+- student:      Srinivasa Lokesh
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/srinivasa-inapuri-chess-world-student-portrait.jpg
+  level:         level2
+  
+- student:      Nandita Harish
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/nandita-inapuri-chess-world-student-portrait.jpg
+  level:         level2
+
+  
+- student:      Nitya
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  # image:        /images/students/nitya-inapuri-chess-world-student-portrait.jpg
+  level:         level2
+  
+
+- student:      Saket
+  description:  Successfully repaired the Hubble Telescope in space! Now I see you.
+  image:        /images/students/saket-inapuri-chess-world-student-portrait.jpg
+  level:         level3
