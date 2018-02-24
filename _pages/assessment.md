@@ -11,6 +11,89 @@ Each student is assessed in which level he/she stands. Am assessment is designed
 
 Once you enter the form you will be redirected to a payment page where you can make the payment of $29.50 <strike>$35.50</strike>.
 
+## Available slots
+
+<div class="table-container">
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Day\Time</th>
+<th title="Field #2">10:00 AM</th>
+<th title="Field #3">11:00 AM</th>
+<th title="Field #4">4:00 PM</th>
+<th title="Field #5">5:00 PM</th>
+<th title="Field #6">5:30 PM</th>
+<th title="Field #7">6:30 PM</th>
+</tr></thead>
+<tbody><tr>
+<td>Monday</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+</tbody></table>
+</div>
+
+
+**A**: Available
+
+**NA**: Not Available
+
 <div>
  <script type="text/javascript">var submitted=false;</script>
  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/payment/';}"></iframe>
@@ -21,7 +104,7 @@ onsubmit="submitted=true;">
 <textarea type="text" name="entry.1065046570" rows="5" placeholder="School Address" class="input shadow"></textarea>
 <input type="email" name="entry.1079944046" placeholder="Email Address*" class="input shadow" required>
 <input type="text" name="entry.904361406" placeholder="Phone*" class="input shadow" required>
-<textarea type="text" name="entry.1691371208" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
+<textarea type="text" name="entry.2099269038" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
 <input type="hidden" name="_next" value="{{site.url}}/payment/">
 <input class="cards btn" type="submit" value="Submit">
 </form>
