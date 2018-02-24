@@ -227,8 +227,11 @@ a.nostyle {
 }
 
 .shadow {
-     -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);     /* Firefox and other browsers using Mozilla's browser engine */
+    -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);  /* Safari, Chrome and browsers using the Webkit engine */
+    -o-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);       /* Opera */
+    -ms-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);      /* Internet Explorer (but not always) */ 
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 .social {
     ul.portfolio {
