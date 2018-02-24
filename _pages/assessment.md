@@ -25,46 +25,46 @@ Once you enter the form you will be redirected to a payment page where you can m
 </tr></thead>
 <tbody><tr>
 <td>Monday</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>A</td>
 <td>A</td>
 </tr>
 <tr>
 <td>Tuesday</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>A</td>
 <td>A</td>
 </tr>
 <tr>
 <td>Wednesday</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>A</td>
 <td>A</td>
 </tr>
 <tr>
 <td>Thursday</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>A</td>
 <td>A</td>
 </tr>
 <tr>
 <td>Friday</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>A</td>
 <td>A</td>
 </tr>
@@ -74,8 +74,8 @@ Once you enter the form you will be redirected to a payment page where you can m
 <td>A</td>
 <td>A</td>
 <td>A</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Sunday</td>
@@ -83,8 +83,8 @@ Once you enter the form you will be redirected to a payment page where you can m
 <td>A</td>
 <td>A</td>
 <td>A</td>
-<td>NA</td>
-<td>NA</td>
+<td>-</td>
+<td>-</td>
 </tr>
 </tbody></table>
 </div>
@@ -92,7 +92,7 @@ Once you enter the form you will be redirected to a payment page where you can m
 
 **A**: Available
 
-**NA**: Not Available
+**--**: Not Available
 
 <div>
  <script type="text/javascript">var submitted=false;</script>
@@ -104,6 +104,7 @@ onsubmit="submitted=true;">
 <textarea type="text" name="entry.1065046570" rows="5" placeholder="School Address" class="input shadow"></textarea>
 <input type="email" name="entry.1079944046" placeholder="Email Address*" class="input shadow" required>
 <input type="text" name="entry.904361406" placeholder="Phone*" class="input shadow" required>
+<input type="text" name="entry.689397432" placeholder="Time Slot - Ex: Mon - 5:30pm" class="input shadow" required>
 <textarea type="text" name="entry.2099269038" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
 <input type="hidden" name="_next" value="{{site.url}}/payment/#go-here">
 <input class="cards btn" type="submit" value="Submit">
