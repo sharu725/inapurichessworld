@@ -9,7 +9,7 @@ Assessment is a one time fee to determine the skill level of the kid.
 
 
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="go-here">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="QFF2LCJ6FEM5Q">
 <table>

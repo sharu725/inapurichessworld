@@ -105,7 +105,7 @@ onsubmit="submitted=true;">
 <input type="email" name="entry.1079944046" placeholder="Email Address*" class="input shadow" required>
 <input type="text" name="entry.904361406" placeholder="Phone*" class="input shadow" required>
 <textarea type="text" name="entry.2099269038" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
-<input type="hidden" name="_next" value="{{site.url}}/payment/">
+<input type="hidden" name="_next" value="{{site.url}}/payment/#go-here">
 <input class="cards btn" type="submit" value="Submit">
 </form>
 </div>
@@ -117,3 +117,5 @@ If you think that I have not responded in time then please feel free to contact 
 </div>
 
 <p></p>
+
+<link rel="prerender" href="{{site.url}}/payment/" />
