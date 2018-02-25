@@ -90,10 +90,11 @@ Google Analytics code. <head> tag is the right place for analytics code as direc
                         <li><a href="/tournaments/">Tournaments</a></li>
                     </ul>
                     <ul class="sm p0 m0a">
-                        <li><a href="{{site.author.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
+                       <div class="fb-like" data-href="https://facebook.com/inapurichessworld/" data-width="250" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                        <!-- <li><a href="{{site.author.facebook}}"><i class="fa fa-facebook-square"></i></a></li>
                         <li><a href="{{site.author.twitter}}"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="{{site.author.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="{{site.author.github}}"><i class="fa fa-github"></i></a></li>
+                        <li><a href="{{site.author.github}}"><i class="fa fa-github"></i></a></li> -->
                     </ul>
                 </div>
                 </div>
@@ -157,11 +158,15 @@ $("button").click(function(){
     $(".comments").toggle();
 });    
 </script>
-
-
-
-
-
 {% endif %}
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=1409800599270506&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
