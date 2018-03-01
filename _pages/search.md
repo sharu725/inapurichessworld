@@ -3,6 +3,7 @@ layout: page
 title: Search
 permalink: /search/
 description: Search anything in the site from here.
+published: false
 ---
 
 
