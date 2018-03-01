@@ -1,0 +1,572 @@
+icw1:
+    beginner:
+    
+        - name: Lahari
+          points: 3.5
+          
+        - name: Anjali
+          points: 3
+          
+        - name: Vineel
+          points: 2.5
+          
+        - name: Anvila
+          points: 2
+          
+        - name: Vivikit
+          points: 2
+          
+        - name: Keerthi
+          points: 2
+        
+          
+        - name: Navya
+          points: 1.5
+        
+          
+        - name: Sanjana
+          points: 1.5
+        
+          
+        - name: Ananya
+          points: 1
+        
+          
+        - name: Manasa
+          points: 1
+
+    advanced:
+    
+        - name: Shreyas
+          points: 3.5
+          
+        - name: Ishaal
+          points: 3
+          
+        - name: Saket
+          points: 2.5
+          
+        - name: Benjamin
+          points: 2.5
+          
+        - name: Sachin
+          points: 2
+          
+        - name: Carmen
+          points: 2
+        
+          
+        - name: Susheel
+          points: 2
+        
+          
+        - name: David
+          points: 2
+        
+          
+        - name: Jordan
+          points: 1
+        
+          
+        - name: Srikant
+          points: 1
+
+icw2:
+    beginner:
+    
+        - name: Saket
+          points: 4
+          
+        - name: David
+          points: 3
+          
+        - name: Benjamin
+          points: 2
+          
+        - name: Carmen
+          points: 2
+          
+        - name: Susheel
+          points: 2
+          
+        - name: Ishaal
+          points: 1
+        
+        - name: Anjali
+          points: 1
+        
+    advanced:
+    
+        - name: Enakshi
+          points: 3.5
+          
+        - name: Keerthi
+          points: 3
+          
+        - name: Vineel
+          points: 3
+          
+        - name: Lahari
+          points: 3
+          
+        - name: Harshi
+          points: 2.5
+          
+        - name: Sai Meghana
+          points: 2.5
+        
+          
+        - name: Srikar
+          points: 2
+        
+        - name: Medha
+          points: 2
+          
+        - name: Manasa
+          points: 2
+        
+        - name: Navya
+          points: 1.5
+          
+        - name: Sandeep
+          points: 1.5
+          
+        - name: Ananya
+          points: 1
+          
+        - name: Sanjana
+          points: 1
+          
+        - name: Rohit
+          points: 1
+          
+        - name: Mackenzie
+          points: 0.5
+        
+icw3:
+    beginner:
+    
+        - name: NA
+          points: 
+          
+
+        
+    advanced:
+    
+        - name: NA
+          points: 
+        
+icw4:
+    beginner:
+    
+        - name: Vineel
+          points: 4
+          
+        - name: Sandeep
+          points: 4
+          
+        - name: Navya
+          points: 3
+          
+        - name: Lahari
+          points: 3
+          
+        - name: Manasa
+          points: 3
+          
+        - name: Harshi
+          points: 2
+        
+        - name: Sriya
+          points: 2
+        
+        - name: Gaurav
+          points: 2
+        
+        - name: Aditya
+          points: 2
+        
+        - name: Srikar
+          points: 2
+        
+        - name: Rohit
+          points: 2
+        
+        - name: Sruthi
+          points: 1
+        
+        - name: Lubna
+          points: 1
+        
+        - name: Mackenzie
+          points: 1
+        
+        - name: Sanjana
+          points: 1
+        
+        - name: Pavani
+          points: 1
+        
+        - name: Anjali
+          points: 0
+        
+        - name: Ananya
+          points: 0
+        
+    advanced:
+    
+        - name: Meghana
+          points: 5
+          
+        - name: Benjamin
+          points: 4
+          
+        - name: Jordan
+          points: 4
+          
+        - name: David
+          points: 4
+          
+        - name: Susheel
+          points: 3
+          
+        - name: Avila
+          points: '1.5/4'
+          
+        - name: Ishaal
+          points: '2/6'
+        
+        - name: Keerthi
+          points: 1
+          
+        - name: Srikanth
+          points: 1
+        
+        - name: Carmen
+          points: 0.5
+
+icw5:
+    beginner:
+    
+        - name: Sandeep
+          points: 4
+          
+        - name: Navya
+          points: 3
+          
+        - name: Gaurav
+          points: 3
+          
+        - name: Avaneesh
+          points: 3
+          
+        - name: Sanjana
+          points: 3
+          
+        - name: Manasa
+          points: 2
+        
+        - name: Mackenzie  
+          points: 1.5
+        
+        - name: Lubna  
+          points: 1
+        
+        - name: Anjali  
+          points: 1
+        
+        - name: Ananya  
+          points: 1
+        
+        - name: Rohit  
+          points: 1
+        
+        
+        - name: Anuhya  
+          points: 1
+        
+        
+        - name: Armaan  
+          points: 1
+        
+    advanced:
+    
+        - name: Sachin
+          points: '4/4'
+          
+        - name: Benjamin
+          points: 5
+          
+        - name: Shreyas
+          points: '3/4'
+          
+        - name: Meghana
+          points: 4
+          
+        - name: Susheel
+          points: 3
+          
+        - name: Anvila
+          points: '2/4'
+        
+        - name: David
+          points: 2.5
+        
+        - name: Vineel
+          points: '1.5/4'
+          
+        - name: Keerthi
+          points: 2
+        
+        - name: Jordan
+          points: 2
+          
+        - name: Carmen
+          points: '1/4'
+          
+        - name: Ishaal
+          points: '1/4'
+          
+        - name: Srikanth
+          points: '1/4'
+        
+icw6:
+    beginner:
+    
+        - name: Sandeep
+          points: 3.5
+          
+        - name: Anjali
+          points: 3
+          
+        - name: Gaurav
+          points: 3
+          
+        - name: Navya
+          points: 3
+          
+        - name: Sahithi
+          points: 2.5
+          
+        - name: Saanvika
+          points: 2.5
+        
+        - name: Akhil
+          points: 2
+        
+        - name: Sanjana
+          points: 2
+        
+        - name: Sharvi
+          points: 2
+        
+        - name: Lubna
+          points: 2
+              
+        - name: Sai Meghana
+          points: 2
+              
+        - name: Rohit
+          points: 1.5
+              
+        - name: Mackenzie   
+          points: 1
+              
+        - name: Tanya
+          points: 1
+              
+        - name: Armaan
+          points: 0.5
+              
+        - name: Manasa
+          points: 0
+        
+    advanced:
+    
+        - name: NA
+          points: 
+          
+
+        
+icw7:
+    beginner:
+    
+        - name: Sandeep
+          points: 3.5
+          
+        - name: Gaurav
+          points: 2.5
+          
+        - name: Anjali
+          points: 2.5
+          
+        - name: Akhil
+          points: 2.5
+          
+        - name: Mackenzie
+          points: 2.5
+          
+        - name: Nandita
+          points: 2
+        
+        - name: Rohit
+          points: 1
+        
+        - name: Tanya
+          points: 1
+        
+        - name: Sanjana
+          points: 1
+        
+        - name: Lubna
+          points: 1
+        
+    advanced:
+    
+        - name: Ishaal
+          points: 
+          
+        - name: Meghana
+          points: 
+          
+        - name: Srikanth
+          points: 
+          
+        - name: Anvila
+          points: 
+ 
+# icw8:
+    beginner:
+    
+        - name: Navya
+          points: 4
+          
+        - name: Sandeep
+          points: 3
+          
+        - name: Ritvik
+          points: 2
+          
+        - name: Nitya
+          points: 2
+          
+        - name: Anjali
+          points: 2
+          
+        - name: Mackenzie   
+          points: 1
+        
+        - name: Garv
+          points: 1
+        
+        - name: Rohit
+          points: 1
+        
+        - name: Sarthak
+          points: 1
+        
+        - name: Anu
+          points: 1
+        
+        - name: Tanya
+          points: 1
+        
+        - name: Nandita
+          points: 1
+        
+        - name: Lubna
+          points: 1
+        
+        - name: Sanjana
+          points: 1
+        
+        - name: Ananya
+          points: 1
+        
+        - name: Stevie
+          points: 1
+        
+        - name: Kushaal
+          points: 1
+        
+        - name: Jacob
+          points: 1
+        
+        - name: Julian
+          points: 1
+        
+        - name: Aryan
+          points: 1
+        
+        - name: Alexander
+          points: 1
+        
+        - name: Gaurav
+          points: 1
+        
+        - name: James
+          points: 1
+        
+        - name: Manasa
+          points: 0
+        
+        - name: Akhil
+          points: 2.5
+        
+        - name: Karthik
+          points: '0.5/1'
+        
+        - name: Rahul
+          points: 2
+        
+        - name: Sharvi
+          points: 2
+        
+    advanced:
+    
+        - name: Enakshi
+          points: 3.5
+          
+        - name: Keerthi
+          points: 3
+          
+        - name: Vineel
+          points: 3
+          
+        - name: Lahari
+          points: 3
+          
+        - name: Harshi
+          points: 2.5
+          
+        - name: Sai Meghana
+          points: 2.5
+        
+          
+        - name: Srikar
+          points: 2
+        
+        - name: Medha
+          points: 2
+          
+        - name: Manasa
+          points: 2
+        
+        - name: Navya
+          points: 1.5
+          
+        - name: Sandeep
+          points: 1.5
+          
+        - name: Ananya
+          points: 1
+          
+        - name: Sanjana
+          points: 1
+          
+        - name: Rohit
+          points: 1
+          
+        - name: Mackenzie
+          points: 0.5
+        

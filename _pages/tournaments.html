@@ -1,0 +1,341 @@
+---
+layout: page
+title: Tournaments
+permalink: /tournaments/
+description: 
+---
+
+
+<nav class="pills">
+    <ul class="r levels">
+       {% for item in site.data.tournaments %}
+        <li class="icw{{forloop.index}} c-2 {% if forloop.index == 1 %}active{% endif %}"><a class="btn" href="/archive/#icw{{forloop.index}}">ICW {{forloop.index}}</a></li>
+       {% endfor %}
+    </ul>
+</nav>   
+<hr>
+
+<div class="icw1 archive tournament">
+<h2 class="text-center">1st Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw1.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw1.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="icw2 archive tournament hide">
+<h2 class="text-center">2nd Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw2.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw2.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="icw3 archive tournament hide">
+<h2 class="text-center">3rd Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw3.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw3.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="icw4 archive tournament hide">
+<h2 class="text-center">4th Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw4.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw4.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="icw5 archive tournament hide">
+<h2 class="text-center">5th Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw5.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw5.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="icw6 archive tournament hide">
+<h2 class="text-center">6th Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw6.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw6.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+<div class="icw7 archive tournament hide">
+<h2 class="text-center">7th Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw7.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw7.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="icw8 archive tournament hide">
+<h2 class="text-center">8th Inapuri Chess World Tournament</h2>
+<div class="r">
+    <div class="c-6">
+        <h3>Beginner Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw8.beginner %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="c-6">
+        <h3>Advanced Section</h3>
+        <div class="r shadow p-15">
+            <div class="c-1"><strong>Rank</strong></div>
+            <div class="c-7"><strong>Name</strong></div>
+            <div class="c-4"><strong>Points</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+        {% for item in site.data.tournaments.icw8.advanced %}
+           <div class="c-1">{{forloop.index}}</div>
+            <div class="c-7">{{item.name}}</div>
+            <div class="c-4">{{item.points}}</div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+function switch_nav(fragment) {
+    var elements = document.querySelectorAll("div.archive");
+    for (i = 0; i < elements.length; ++i) {
+        elements[i].classList.add("hide");
+    }
+
+    elements = document.querySelectorAll("div.archive." + fragment);
+    for (i = 0; i < elements.length; ++i) {
+        elements[i].classList.remove("hide");
+    }
+    elements = document.querySelectorAll("nav.pills li");
+    for (i = 0; i < elements.length; ++i) {
+        elements[i].classList.remove("active");
+    }
+    elements = document.querySelectorAll("nav.pills li." + fragment);
+    for (i = 0; i < elements.length; ++i) {
+        elements[i].classList.add("active");
+    }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  var fragment = window.location.hash.slice(1);
+  if (fragment
+      && document.querySelectorAll("div.archive." + fragment).length == 1) {
+    switch_nav(fragment);
+  };
+
+  var elements = document.querySelectorAll("nav.pills a");
+  for (i = 0; i < elements.length; ++i) {
+    elements[i].onclick = function(){
+      var fragment = this.href.split("#")[1];
+      switch_nav(fragment);
+      window.location.replace("#" + fragment);
+      return false;
+    };
+  };
+});
+</script>   
