@@ -14,11 +14,11 @@ description: Chess camp in Westford, Burlington, Massachusetts.
             <div class="c-4"><strong>Address</strong></div>
             <div class="c-12"><hr class="nomp"></div>
            <div class="c-4">July 2nd to 6th</div>
-           <div class="c-4">9AM to 4PM</div>
+           <div class="c-4">9:00AM to 4:00PM</div>
             <div class="c-4">St.Marks Episcopal Church, 
 75 Cold Springs Road, Westford, MA 01886</div>
            <div class="c-4">August 13th to 17th</div>
-           <div class="c-4">9AM to 4PM</div>
+           <div class="c-4">9:00AM to 4:00PM</div>
             <div class="c-4">St.Marks Episcopal Church, 
 75 Cold Springs Road, Westford, MA 01886</div>
         </div>
@@ -31,11 +31,11 @@ description: Chess camp in Westford, Burlington, Massachusetts.
             <div class="c-4"><strong>Address</strong></div>
             <div class="c-12"><hr class="nomp"></div>
            <div class="c-4">July 23rd to 27th</div>
-           <div class="c-4">9AM to 4PM</div>
+           <div class="c-4">9:00AM to 4:00PM</div>
             <div class="c-4">2 Burlington woods drive, 
 Burlington, MA 01803</div>
            <div class="c-4">August 6th to 10th</div>
-           <div class="c-4">9AM to 4PM</div>
+           <div class="c-4">9:00AM to 4:00PM</div>
             <div class="c-4">2 Burlington woods drive,
 Burlington, MA 01803</div>
         </div>
