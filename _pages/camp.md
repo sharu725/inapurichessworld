@@ -53,7 +53,7 @@ onsubmit="submitted=true;">
   <option name="entry.839337160" data-value="July 23rd to 27th - Burlington">July 23rd to 27th - Burlington</option>
   <option name="entry.839337160" data-value="August 6th to 10th - Burlington">August 6th to 10th - Burlington</option>
 </select>
-
+<textarea type="text" name="entry.704276076" rows="6" placeholder="Notes: Date of visit? No. of days? etc.." class="input shadow"></textarea>
 <input class="cards btn" type="submit" value="Submit & Pay">
 </form>
 </div>

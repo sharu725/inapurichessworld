@@ -97,6 +97,19 @@ img {
   font-size: $small-fs;
 }
 
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ font-size: $small-fs;
+}
+textarea:-moz-placeholder { /* Firefox 19+ */
+  font-size: $small-fs;
+}
+textarea:-ms-input-placeholder { /* IE 10+ */
+  font-size: $small-fs;
+}
+textarea::-moz-placeholder { /* Firefox 18- */
+  font-size: $small-fs;
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: white;
     background: $brand-color;
