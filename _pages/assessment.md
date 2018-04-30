@@ -107,7 +107,7 @@ onsubmit="submitted=true;">
 <input type="text" name="entry.689397432" placeholder="Time Slot - Ex: Mon - 5:30pm" class="input shadow" required>
 <textarea type="text" name="entry.2099269038" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
 <input type="hidden" name="_next" value="{{site.url}}/payment/#go-here">
-<input class="cards btn" type="submit" value="Submit">
+<input class="cards btn" type="submit" value="Submit & Pay">
 </form>
 </div>
 
