@@ -20,16 +20,16 @@ description: Chess camp in Westford, Burlington, Massachusetts.
         </div>
     </div>
     <div class="c-12">
-        <h3>Camp at Burlington</h3>
+        <h3>Camp at Lexington</h3>
         <div class="r shadow p-15">
             <div class="c-4"><strong>Date</strong></div>
             <div class="c-4"><strong>Time</strong></div>
             <div class="c-4"><strong>Address</strong></div>
             <div class="c-12"><hr class="nomp"></div>
-           <div class="c-4">July 23rd to 27th<br/>August 6th to 10th</div>
+           <div class="c-4">July 9th to 13th<br/>July 23rd to 27th<br>July 30th to August 3rd<br>August 6th to 10th</div>
            <div class="c-4">9:00AM to 4:00PM</div>
-            <div class="c-4">2 Burlington woods drive, 
-Burlington, MA 01803</div>
+            <div class="c-4">Piligrim Congregational Church, 
+55 Coolidge Ave, Lexington MA 02420</div>
         </div>
     </div>
 </div>
