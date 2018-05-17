@@ -47,7 +47,7 @@ onsubmit="submitted=true;">
 <input type="text" name="entry.2005620554" placeholder="Name*" class="input shadow" required>
 <input type="email" name="entry.1045781291" placeholder="Email Address*" class="input shadow" required>
 <input type="text" name="entry.1166974658" placeholder="Phone*" class="input shadow" required>
-<select name="entry.839337160">
+<select name="entry.839337160" class="input shadow">
   <option name="entry.839337160" data-value="July 2nd to 6th - Westford">July 2nd to 6th - Westford</option>
   <option name="entry.839337160" data-value="August 13th to 17th - Westford">August 13th to 17th - Westford</option>
   <option name="entry.839337160" data-value="July 9th to 13th - Lexington">July 9th to 13th - Lexington</option>
