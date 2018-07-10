@@ -8,13 +8,13 @@ tasks:
     - time: '09:30AM - 10:15AM'
       task: 'Lesson 1'
       
-    - time: '10:15AM - 10:30AM'
+    - time: '10:15AM - 10:45AM'
       task: Worksheet/Puzzle solving
       
-    - time: '10:30AM - 10:45AM'
+    - time: '10:45AM - 11:00AM'
       task: Snack Break
       
-    - time: '10:45AM - 11:45AM'
+    - time: '11:00AM - 11:45AM'
       task: Round 1
       
     - time: '11:45AM - 12:15PM'
