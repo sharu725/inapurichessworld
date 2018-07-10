@@ -51,11 +51,57 @@ Nashua NH 03060</div>
     
 </div>
 <br>
+
+
+<div class="r shadow p-15">
+     <div class="c-12">
+        <h3>Schedule</h3>
+        <table class="camp-table">
+           <tr>
+            <th>Time</th>
+            <th>Tasks</th> 
+           </tr>
+           
+           {% for item in site.data.camp.tasks %}
+            <tr>
+                <td>{{item.time}}</td>
+                <td>{{item.task}}</td> 
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+ </div>
+<br>
 <p>* Early drop of 8:30AM and Late pickup at 4:30PM</p>
+<br>
+<div class="r shadow p-15">
+     <div class="c-12">
+        <h3>Fee</h3>
+        <table class="camp-table">
+           <tr>
+            <th>Plan</th>
+            <th>Price</th> 
+           </tr>
+           
+           {% for item in site.data.camp.fees %}
+            <tr>
+                <td>{{item.plan}}</td>
+                <td>${{item.fee}}</td> 
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+ </div>
+<br>
+<p>* Medals are issued for all the participants.</p>
 
-<h3>Enroll for a camp</h3>
+<p>* Trophies are issued for winners.</p>
 
 
+<br>
+<a href="/enroll/" class="btn btn-primary">Enroll for a camp</a>
+
+<!-- 
 <div>
  <script type="text/javascript">var submitted=false;</script>
  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/camp-payment/';}"></iframe>
@@ -77,5 +123,5 @@ onsubmit="submitted=true;">
 <textarea type="text" name="entry.704276076" rows="6" placeholder="Notes: Date of visit? No. of days? etc.." class="input shadow"></textarea>
 <input class="cards btn" type="submit" value="Submit & Pay">
 </form>
-</div>
+</div> -->
 

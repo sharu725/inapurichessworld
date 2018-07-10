@@ -416,3 +416,10 @@ select {
     font-size: $small-fs;
     color: $color;
 }
+
+table.camp-table {
+    width: 100%;
+    th, tr {
+        width: 50%;
+    }
+}

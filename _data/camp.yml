@@ -1,0 +1,55 @@
+tasks:
+    - time: '08:30AM - 09:00AM'
+      task: Drop off
+      
+    - time: '09:00AM - 9:30AM'
+      task: Free play practise
+      
+    - time: '09:30AM - 10:15AM'
+      task: 'Lesson 1'
+      
+    - time: '10:15AM - 10:30AM'
+      task: Worksheet/Puzzle solving
+      
+    - time: '10:30AM - 10:45AM'
+      task: Snack Break
+      
+    - time: '10:45AM - 11:45AM'
+      task: Round 1
+      
+    - time: '11:45AM - 12:15PM'
+      task: Game review
+      
+    - time: '12:15PM - 12:45PM'
+      task: Lunch Break
+      
+    - time: '12:45PM - 01:15PM'
+      task: Chess Variants/Blitz
+      
+    - time: '01:15PM - 02:00PM'
+      task: Lesson 2
+      
+    - time: '02:00PM - 02:30PM'
+      task: Worksheet/Puzzle Solving
+      
+    - time: '02:30PM - 03:30PM'
+      task: Round 2
+      
+    - time: '03:30PM - 04:00PM'
+      task: Game review
+      
+    - time: '04:00PM - 04:30PM'
+      task: Pick up
+      
+fees:
+    - plan: Full day whole week
+      fee: 300
+      
+    - plan: Half day whole week
+      fee: 150
+      
+    - plan: Full day single day
+      fee: 70
+      
+    - plan: Half day single day
+      fee: 40
