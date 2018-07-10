@@ -19,6 +19,7 @@ description: Chess camp in Westford, Burlington, Massachusetts.
 75 Cold Springs Road, Westford, MA 01886</div>
         </div>
     </div>
+    
     <div class="c-12">
         <h3>Camp at Lexington</h3>
         <div class="r shadow p-15">
@@ -31,7 +32,23 @@ description: Chess camp in Westford, Burlington, Massachusetts.
             <div class="c-4">Piligrim Congregational Church, 
 55 Coolidge Ave, Lexington MA 02420</div>
         </div>
+    </div>    
+    
+    <div class="c-12">
+        <h3>Camp at Nashua</h3>
+        <div class="r shadow p-15">
+            <div class="c-4"><strong>Date</strong></div>
+            <div class="c-4"><strong>Time</strong></div>
+            <div class="c-4"><strong>Address</strong></div>
+            <div class="c-12"><hr class="nomp"></div>
+           <div class="c-4">July 16th to 20th<br/>July 30th to August 3rd</div>
+           <div class="c-4">9:00AM to 4:00PM</div>
+            <div class="c-4">3 Taggart Drive I,<br>  
+Nashua NH 03060</div>
+        </div>
     </div>
+    
+    
 </div>
 <br>
 <p>* Early drop of 8:30AM and Late pickup at 4:30PM</p>
@@ -54,6 +71,8 @@ onsubmit="submitted=true;">
   <option name="entry.839337160" data-value="July 23rd to 27th - Lexington">July 23rd to 27th - Lexington</option>
   <option name="entry.839337160" data-value="July 30th to August 3rd - Lexington">July 30th to August 3rd - Lexington</option>
   <option name="entry.839337160" data-value="August 6th to August 10th - Lexington">August 6th to August 10th - Lexington</option>
+  <option name="entry.839337160" data-value="July 16th to July 20th - Nashua">July 16th to July 20th - Nashua</option>
+  <option name="entry.839337160" data-value="July 30th to August 3rd - Nashua">July 30th to August 3rd - Nashua</option>
 </select>
 <textarea type="text" name="entry.704276076" rows="6" placeholder="Notes: Date of visit? No. of days? etc.." class="input shadow"></textarea>
 <input class="cards btn" type="submit" value="Submit & Pay">
