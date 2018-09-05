@@ -15,11 +15,11 @@ Assessment is a one time fee to determine the skill level of the kid.
 <table>
 <tr><td><input type="hidden" name="on0" value="Classes">Classes</td></tr><tr><td><select name="os0">
 	<option value="Assessment">Assessment $29.50 USD</option>
-	<option value="Level 1">Level 1 $69.50 USD</option>
+	<!-- <option value="Level 1">Level 1 $69.50 USD</option>
 	<option value="Level 2">Level 2 $79.50 USD</option>
 	<option value="Level 3">Level 3 $89.50 USD</option>
 	<option value="Level 4">Level 4 $99.50 USD</option>
-	<option value="Level 5">Level 5 $109.50 USD</option>
+	<option value="Level 5">Level 5 $109.50 USD</option> -->
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
