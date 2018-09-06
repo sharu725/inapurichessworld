@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Payment
+title: Camp Payment
 permalink: /camp-payment/
 description: Pay for Chess Camp.
 ---

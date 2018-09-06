@@ -55,7 +55,7 @@ description: Chess classes in Westford and Nashua.
 
 <div>
  <script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/payment/';}"></iframe>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/class-payment/';}"></iframe>
 <form class="wj-contact rev" action="https://docs.google.com/forms/d/e/1FAIpQLSdcSssxNGawh2x_YRzovXPNh0e4U7Vyj6kYQDuwtpHrFlTNzQ/formResponse" method="POST" target="hidden_iframe" 
 onsubmit="submitted=true;">
 <input type="text" name="entry.2005620554" placeholder="Name*" class="input shadow" required>
