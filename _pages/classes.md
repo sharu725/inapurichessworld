@@ -50,8 +50,13 @@ description: Chess classes in Westford and Nashua.
 
         </div>
     </div>    
-
 </div>
+<div class="r">
+<div class="c-12">
+    <p>*Make up classes allowed</p>
+</div>
+</div>
+
 
 <div>
  <script type="text/javascript">var submitted=false;</script>
