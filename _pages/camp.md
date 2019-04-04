@@ -5,6 +5,8 @@ permalink: /camp/
 description: Chess camp in Westford, Burlington, Massachusetts.
 ---
 
+![Spring Chess Camp](/images/spring-chess-camp.jpeg)
+
 <div class="r">
     <div class="c-12">
         <h3>Camp at Westford</h3>
@@ -15,11 +17,11 @@ description: Chess camp in Westford, Burlington, Massachusetts.
             <div class="c-12"><hr class="nomp"></div>
            <div class="c-4">July 2nd to 6th<br/>August 13th to 17th</div>
            <div class="c-4">9:00AM to 4:00PM</div>
-            <div class="c-4">St.Marks Episcopal Church, 
+            <div class="c-4">St.Marks Episcopal Church,
 75 Cold Springs Road, Westford, MA 01886</div>
         </div>
     </div>
-    
+
     <div class="c-12">
         <h3>Camp at Lexington</h3>
         <div class="r shadow p-15">
@@ -29,11 +31,11 @@ description: Chess camp in Westford, Burlington, Massachusetts.
             <div class="c-12"><hr class="nomp"></div>
            <div class="c-4">July 9th to 13th<br/>July 23rd to 27th<br>July 30th to August 3rd<br>August 6th to 10th</div>
            <div class="c-4">9:00AM to 4:00PM</div>
-            <div class="c-4">Piligrim Congregational Church, 
+            <div class="c-4">Piligrim Congregational Church,
 55 Coolidge Ave, Lexington MA 02420</div>
         </div>
     </div>    
-    
+
     <div class="c-12">
         <h3>Camp at Nashua</h3>
         <div class="r shadow p-15">
@@ -47,8 +49,8 @@ description: Chess camp in Westford, Burlington, Massachusetts.
 Nashua NH 03060</div>
         </div>
     </div>
-    
-    
+
+
 </div>
 <br>
 
@@ -59,13 +61,13 @@ Nashua NH 03060</div>
         <table class="camp-table">
            <tr>
             <th>Time</th>
-            <th>Tasks</th> 
+            <th>Tasks</th>
            </tr>
-           
+
            {% for item in site.data.camp.tasks %}
             <tr>
                 <td>{{item.time}}</td>
-                <td>{{item.task}}</td> 
+                <td>{{item.task}}</td>
             </tr>
             {% endfor %}
         </table>
@@ -80,13 +82,13 @@ Nashua NH 03060</div>
         <table class="camp-table">
            <tr>
             <th>Plan</th>
-            <th>Price</th> 
+            <th>Price</th>
            </tr>
-           
+
            {% for item in site.data.camp.fees %}
             <tr>
                 <td>{{item.plan}}</td>
-                <td>${{item.fee}}</td> 
+                <td>${{item.fee}}</td>
             </tr>
             {% endfor %}
         </table>
@@ -101,11 +103,11 @@ Nashua NH 03060</div>
 <br>
 <a href="/enroll/" class="btn btn-primary">Enroll for a camp</a>
 
-<!-- 
+<!--
 <div>
  <script type="text/javascript">var submitted=false;</script>
  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/camp-payment/';}"></iframe>
-<form class="wj-contact rev" action="https://docs.google.com/forms/d/e/1FAIpQLSfheZ4cQE9npZpTuPfMFnDUX7MTRF1PBB4bFMlvO4CVbnTlGQ/formResponse" method="POST" target="hidden_iframe" 
+<form class="wj-contact rev" action="https://docs.google.com/forms/d/e/1FAIpQLSfheZ4cQE9npZpTuPfMFnDUX7MTRF1PBB4bFMlvO4CVbnTlGQ/formResponse" method="POST" target="hidden_iframe"
 onsubmit="submitted=true;">
 <input type="text" name="entry.2005620554" placeholder="Name*" class="input shadow" required>
 <input type="email" name="entry.1045781291" placeholder="Email Address*" class="input shadow" required>
