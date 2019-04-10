@@ -8,7 +8,30 @@ description: Pay for Chess Camp.
 
 Choose a plan for the camp that suits your needs.
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<div class="r shadow p-15">
+     <div class="c-12">
+        <h3>Fee</h3>
+        <table class="camp-table">
+           <tr>
+            <th>Plan</th>
+            <th>Price</th>
+           </tr>
+
+            <tr>
+                <td>Whole week</td>
+                <td>$170</td>
+            </tr>
+
+            <tr>
+                <td>Per day</td>
+                <td>$40</td>
+            </tr>
+
+        </table>
+        </div>
+ </div>
+
+<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="ED7QKC4V5LJ2Q">
 <table>
@@ -22,5 +45,15 @@ Choose a plan for the camp that suits your needs.
 <input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+</form> -->
+
+<br>
+<label for="numKids"><strong>No. of kids </strong></label>
+<input type="number" id="numKids" min="1" placeholder="1" class="input">
+<br>
+<label for="day"><strong>No. of days </strong></label>
+<input type="number" id="day" min="1" max="5" placeholder="1" class="input" value="1">
+<br>
+<a id="pay" class="btn btn-success" href="">Pay <span id="amount"></span></a>
+
 

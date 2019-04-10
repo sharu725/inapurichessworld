@@ -167,6 +167,28 @@ $("button").click(function(){
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+
+{% if page.url == '/camp-payment/' %}
+<script>
+	let amount = 0;
+ $(document).ready(function(){
+	 $('.input').change(function(){
+		 		if ($('#day').val() == 5) {
+						amount = $('#numKids').val() * 170;
+				}
+				else {
+				amount = $('#numKids').val() * $('#day').val() * 40;
+			}
+				console.log(amount);
+				$('#amount').text(amount);
+				$('#pay').attr('href', 'https://www.paypal.me/springchesscamp/' + amount + 'usd');
+
+		});
+});
+</script>
+{% endif %}
+
+
 {% include analytics-lite.html %}
 </body>
 </html>
