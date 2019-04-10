@@ -172,14 +172,14 @@ $("button").click(function(){
 <script>
 	let amount = 0;
  $(document).ready(function(){
-	 $('.input').change(function(){
+	 $('.input').bind("keyup change", function(){
 		 		if ($('#day').val() == 5) {
 						amount = $('#numKids').val() * 170;
 				}
+
 				else {
-				amount = $('#numKids').val() * $('#day').val() * 40;
-			}
-				console.log(amount);
+					amount = $('#numKids').val() * $('#day').val() * 40;
+				}
 				$('#amount').text(amount);
 				$('#pay').attr('href', 'https://www.paypal.me/springchesscamp/' + amount + 'usd');
 
