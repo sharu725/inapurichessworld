@@ -174,11 +174,11 @@ $("button").click(function(){
  $(document).ready(function(){
 	 $('.input').bind("keyup change", function(){
 		 		if ($('#day').val() == 5) {
-						amount = $('#numKids').val() * 170;
+						amount = $('#numKids').val() * 300;
 				}
 
 				else {
-					amount = $('#numKids').val() * $('#day').val() * 40;
+					amount = $('#numKids').val() * $('#day').val() * 70;
 				}
 				$('#amount').text(amount);
 				$('#pay').attr('href', 'https://www.paypal.me/springchesscamp/' + amount + 'usd');

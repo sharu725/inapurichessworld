@@ -18,13 +18,22 @@ Choose a plan for the camp that suits your needs.
            </tr>
 
             <tr>
-                <td>Whole week</td>
-                <td>$170</td>
+                <td>Whole week full day (5)</td>
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>Whole week half day (2.5)</td>
+                <td>$175</td>
             </tr>
 
             <tr>
-                <td>Per day</td>
-                <td>$40</td>
+                <td>Single full day (1)</td>
+                <td>$70</td>
+            </tr>
+
+            <tr>
+                <td>Single half day (0.5)</td>
+                <td>$35</td>
             </tr>
 
         </table>
@@ -47,13 +56,18 @@ Choose a plan for the camp that suits your needs.
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form> -->
 
+<style media="screen">
+.number {
+  margin-left: 10px;
+  padding: 5px 20px;
+}
+</style>
+
 <br>
 <label for="numKids"><strong>No. of kids </strong></label>
-<input type="number" id="numKids" min="1" placeholder="1" class="input" value="1">
+<input type="number" id="numKids" min="1" max="99" placeholder="1" class="input" value="1">
 <br>
 <label for="day"><strong>No. of days </strong></label>
 <input type="number" id="day" min="1" max="5" placeholder="1" class="input" value="0">
 <br>
 <a id="pay" class="btn btn-success" href="">Pay <span id="amount"></span></a>
-
-
