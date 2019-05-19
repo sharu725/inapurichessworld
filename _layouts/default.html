@@ -176,9 +176,11 @@ $("button").click(function(){
 		 		if ($('#day').val() == 5) {
 						amount = $('#numKids').val() * 300;
 				}
-
+				else if ($('#day').val() == 2.5) {
+						amount = $('#numKids').val() * 175;
+				}
 				else {
-					amount = $('#numKids').val() * $('#day').val() * 70;
+					amount = $('#numKids').val() * $('#day').val() * 80;
 				}
 				$('#amount').text(amount);
 				$('#pay').attr('href', 'https://www.paypal.me/springchesscamp/' + amount + 'usd');
