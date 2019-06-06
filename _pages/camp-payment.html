@@ -5,8 +5,23 @@ permalink: /camp-payment/
 description: Pay for Chess Camp.
 ---
 
+<style>
+.pay {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #1eca19;
+  color: white;
+  box-shadow: 0 0 4px #ddd;
+  font-weight: bold;
+}
+.pay:hover {
+  background-color: #ffc43a;
+  box-shadow: 0 0 6px #aaa;
+  font-weight: bold;
+}
+</style>
 
-Choose a plan for the camp that suits your needs.
+<p>Choose a plan for the camp that suits your needs.</p>
 
 <div class="r shadow p-15">
      <div class="c-12">
@@ -15,30 +30,37 @@ Choose a plan for the camp that suits your needs.
            <tr>
             <th>Plan</th>
             <th>Price</th>
+            <th>PayPal</th>
            </tr>
 
             <tr>
-                <td>Whole week full day (5)</td>
+                <td>Whole week full day</td>
                 <td>$300</td>
+                <td><a class="pay" href="{{site.paypal}}300usd" target="_blank">$300</a></td>
             </tr>
             <tr>
-                <td>Whole week half day (2.5)</td>
+                <td>Whole week half day</td>
                 <td>$175</td>
+                <td><a class="pay" href="{{site.paypal}}175usd" target="_blank">$175</a></td>
             </tr>
 
             <tr>
-                <td>Single full day (1)</td>
+                <td>Single full day</td>
                 <td>$70</td>
+                <td><a class="pay" href="{{site.paypal}}70usd" target="_blank">$70</a></td>
             </tr>
 
             <tr>
-                <td>Single half day (0.5)</td>
+                <td>Single half day</td>
                 <td>$40</td>
+                <td><a class="pay" href="{{site.paypal}}40usd" target="_blank">$40</a></td>
             </tr>
 
         </table>
         </div>
  </div>
+
+
 
 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -71,5 +93,10 @@ Choose a plan for the camp that suits your needs.
 <input type="number" id="day" min="1" max="5" placeholder="1" class="input" value="0">
 <br>
 <a id="pay" class="btn btn-success" href="">Pay <span id="amount"></span></a> -->
-
-<strong>Amount payable at the venue throgh cheque or cash</strong>
+<br>
+<a class="pay" href="{{site.paypal}}" target="_blank">Custom Pay</a>
+<br>
+<br>
+<p>
+  <strong>Amount also payable at the venue throgh cheque or cash</strong>
+</p>
