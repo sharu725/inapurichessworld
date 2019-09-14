@@ -94,6 +94,7 @@ Once you enter the form you will be redirected to a payment page where you can m
 
 **--**: Not Available
 
+
 <div>
  <script type="text/javascript">var submitted=false;</script>
  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/payment/';}"></iframe>
