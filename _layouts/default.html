@@ -191,6 +191,25 @@ $("button").click(function(){
 {% endif %}
 
 
+{% if page.url == '/enroll/' %}
+<script  src="https://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.js"></script>
+<script>
+jQuery(function ($) {
+    $("#wj-form").validate();
+    var rnuma = Math.floor(Math.random() * 11);
+    var rnumb = Math.floor(Math.random() * 11);
+    var sum = rnuma + rnumb;
+    $("#rnuma").text(rnuma);
+    $("#rnumb").text(rnumb);
+    $("#mathTest").click(function(){
+         if (sum == $("#testInput").val())
+                 {$("#wj-form").append('<div class="col-md-12"><div class="form-group"><input type="submit" value="submit" class="btn btn-primary"></div></div>');}
+         else {alert('Sorry, please try again.');}
+    });
+});
+</script>
+{% endif %}
+
 {% include analytics-lite.html %}
 </body>
 </html>
