@@ -98,7 +98,7 @@ Once you enter the form you will be redirected to a payment page where you can m
 <div>
  <script type="text/javascript">var submitted=false;</script>
  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/payment/';}"></iframe>
-<form class="wj-contact rev" action="https://docs.google.com/forms/d/e/1FAIpQLSdcSssxNGawh2x_YRzovXPNh0e4U7Vyj6kYQDuwtpHrFlTNzQ/formResponse" method="POST" target="hidden_iframe" 
+<form id="wj-form" class="wj-contact rev" action="https://docs.google.com/forms/d/e/1FAIpQLSdcSssxNGawh2x_YRzovXPNh0e4U7Vyj6kYQDuwtpHrFlTNzQ/formResponse" method="POST" target="hidden_iframe" 
 onsubmit="submitted=true;">
 <input type="text" name="entry.2005620554" placeholder="Name*" class="input shadow" required>
 <input type="number" name="entry.456148767" placeholder="Age" class="input shadow">
@@ -108,7 +108,16 @@ onsubmit="submitted=true;">
 <input type="text" name="entry.689397432" placeholder="Time Slot - Ex: Mon - 5:30pm" class="input shadow" required>
 <textarea type="text" name="entry.2099269038" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
 <input type="hidden" name="_next" value="{{site.url}}/payment/#go-here">
-<input class="cards btn" type="submit" value="Submit & Pay">
+<div class="col-md-12">
+      <label for="subject">Solve this</label>
+      <span id="rnuma"></span> + <span id="rnumb"></span> =
+      <div class="input-group">
+        <input type="text" value="" id="testInput" class="input shadow" placeholder="Your answer" style="width: 50%">
+        <span class="input-group-btn">
+            <button class="cards btn" type="button" id="mathTest">Go!</button>
+            </span>
+    </div>
+</div>
 </form>
 </div>
 
