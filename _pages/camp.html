@@ -3,37 +3,61 @@ layout: page
 title: Camp
 permalink: /camp/
 description: Chess camp in Westford, Burlington, Massachusetts.
+plans:
+  - title: Whole week full day
+    price: 320
+
+  - title: Whole week half day
+    price: 190
+
+  - title: Signle full day
+    price: 80
+
+  - title: Single half day
+    price: 50
 ---
 
-<img src="/images/chess-camp-flyer.jpg" alt="Summer Chess Camp">
+<img src="/images/icw-camp-optimized.jpg" alt="Summer Chess Camp" />
 
 <div class="r">
-    <div class="c-12">
-        <h3>Camp at Westford</h3>
-        <div class="r shadow p-15">
-            <div class="c-4"><strong>Date</strong></div>
-            <div class="c-4"><strong>Time</strong></div>
-            <div class="c-4"><strong>Address</strong></div>
-            <div class="c-12"><hr class="nomp"></div>
+  <div class="c-12">
+    <h3>Camp at Westford</h3>
+    <div class="r shadow p-15">
+      <div class="c-4"><strong>Date</strong></div>
+      <div class="c-4"><strong>Time</strong></div>
+      <div class="c-4"><strong>Address</strong></div>
+      <div class="c-12"><hr class="nomp" /></div>
 
-           <div class="c-4">June 24th to 28th</div>
-           <div class="c-4">8:30AM to 04:30PM<br>8:30AM to 12:30PM(Half day)<br>12:30PM to 4:30PM(Half day)</div>
-            <div class="c-4">St.Marks Episcopal Church,
-75 Cold Springs Road, Westford, MA 01886</div>
+      <div class="c-4">June 24th to 28th</div>
+      <div class="c-4">
+        8:30AM to 04:30PM<br />8:30AM to 12:30PM(Half day)<br />12:30PM to
+        4:30PM(Half day)
+      </div>
+      <div class="c-4">
+        St.Marks Episcopal Church, 75 Cold Springs Road, Westford, MA 01886
+      </div>
 
-           <div class="c-4">July 8th to 12th</div>
-           <div class="c-4">8:30AM to 04:30PM<br>8:30AM to 12:30PM(Half day)<br>12:30PM to 4:30PM(Half day)</div>
-            <div class="c-4">St.Marks Episcopal Church,
-75 Cold Springs Road, Westford, MA 01886</div>
+      <div class="c-4">July 8th to 12th</div>
+      <div class="c-4">
+        8:30AM to 04:30PM<br />8:30AM to 12:30PM(Half day)<br />12:30PM to
+        4:30PM(Half day)
+      </div>
+      <div class="c-4">
+        St.Marks Episcopal Church, 75 Cold Springs Road, Westford, MA 01886
+      </div>
 
-           <div class="c-4">August 5th to 9th</div>
-           <div class="c-4">8:30AM to 04:30PM<br>8:30AM to 12:30PM(Half day)<br>12:30PM to 4:30PM(Hlaf day)</div>
-            <div class="c-4">St.Marks Episcopal Church,
-75 Cold Springs Road, Westford, MA 01886</div>
-        </div>
+      <div class="c-4">August 5th to 9th</div>
+      <div class="c-4">
+        8:30AM to 04:30PM<br />8:30AM to 12:30PM(Half day)<br />12:30PM to
+        4:30PM(Hlaf day)
+      </div>
+      <div class="c-4">
+        St.Marks Episcopal Church, 75 Cold Springs Road, Westford, MA 01886
+      </div>
     </div>
+  </div>
 
-    <!-- <div class="c-12">
+  <!-- <div class="c-12">
         <h3>Camp at Lexington</h3>
         <div class="r shadow p-15">
             <div class="c-4"><strong>Date</strong></div>
@@ -60,10 +84,8 @@ description: Chess camp in Westford, Burlington, Massachusetts.
 Nashua NH 03060</div>
         </div>
     </div> -->
-
-
 </div>
-<br>
+<br />
 
 <!--
 <div class="r shadow p-15">
@@ -106,42 +128,26 @@ Nashua NH 03060</div>
         </div>
  </div> -->
 
+<div class="r shadow p-15">
+  <div class="c-12">
+    <h3>Fee</h3>
+    <table class="camp-table">
+      <tr>
+        <th>Plan</th>
+        <th>Price</th>
+      </tr>
 
-             <div class="r shadow p-15">
-                  <div class="c-12">
-                     <h3>Fee</h3>
-                     <table class="camp-table">
-                        <tr>
-                         <th>Plan</th>
-                         <th>Price</th>
-                        </tr>
+      {% for item in page.plans %}
+      <tr>
+        <td>{{item.title}}</td>
+        <td>${{item.price}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
 
-                         <tr>
-                             <td>Whole week full day</td>
-                             <td>$300</td>
-                         </tr>
-
-                         <tr>
-                             <td>Whole week half day</td>
-                             <td>$175</td>
-                         </tr>
-
-                         <tr>
-                             <td>Single full day</td>
-                             <td>$70</td>
-                         </tr>
-
-                         <tr>
-                             <td>Single half day</td>
-                             <td>$40</td>
-                         </tr>
-
-                     </table>
-                     </div>
-              </div>
-
-
-<br>
+<br />
 
 <ul>
   <li>Medals are issued for all the participants.</li>
@@ -149,8 +155,7 @@ Nashua NH 03060</div>
   <li>Age 5 and up.</li>
 </ul>
 
-
-<br>
+<br />
 <a href="/enroll/" class="btn btn-primary">Enroll for a camp</a>
 
 <!--

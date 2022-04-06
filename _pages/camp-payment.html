@@ -3,64 +3,61 @@ layout: page
 title: Camp Payment
 permalink: /camp-payment/
 description: Pay for Chess Camp.
+plans:
+  - title: Whole week full day
+    price: 320
+
+  - title: Whole week half day
+    price: 190
+
+  - title: Signle full day
+    price: 80
+
+  - title: Single half day
+    price: 50
 ---
 
 <style>
-.pay {
-  padding: 5px 10px;
-  border-radius: 10px;
-  background-color: #1eca19;
-  color: white;
-  box-shadow: 0 0 4px #ddd;
-  font-weight: bold;
-}
-.pay:hover {
-  background-color: #ffc43a;
-  box-shadow: 0 0 6px #aaa;
-  font-weight: bold;
-}
+  .pay {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #1eca19;
+    color: white;
+    box-shadow: 0 0 4px #ddd;
+    font-weight: bold;
+  }
+  .pay:hover {
+    background-color: #ffc43a;
+    box-shadow: 0 0 6px #aaa;
+    font-weight: bold;
+  }
 </style>
 
 <p>Choose a plan for the camp that suits your needs.</p>
 
 <div class="r shadow p-15">
-     <div class="c-12">
-        <h3>Fee</h3>
-        <table class="camp-table">
-           <tr>
-            <th>Plan</th>
-            <th>Price</th>
-            <th>PayPal</th>
-           </tr>
-
-            <tr>
-                <td>Whole week full day</td>
-                <td>$300</td>
-                <td><a class="pay" href="{{site.paypal}}300usd" target="_blank">$300</a></td>
-            </tr>
-            <tr>
-                <td>Whole week half day</td>
-                <td>$175</td>
-                <td><a class="pay" href="{{site.paypal}}175usd" target="_blank">$175</a></td>
-            </tr>
-
-            <tr>
-                <td>Single full day</td>
-                <td>$70</td>
-                <td><a class="pay" href="{{site.paypal}}70usd" target="_blank">$70</a></td>
-            </tr>
-
-            <tr>
-                <td>Single half day</td>
-                <td>$40</td>
-                <td><a class="pay" href="{{site.paypal}}40usd" target="_blank">$40</a></td>
-            </tr>
-
-        </table>
-        </div>
- </div>
-
-
+  <div class="c-12">
+    <h3>Fee</h3>
+    <table class="camp-table">
+      <tr>
+        <th>Plan</th>
+        <th>Price</th>
+        <th>PayPal</th>
+      </tr>
+      {% for item in page.plans %}
+      <tr>
+        <td>{{item.title}}</td>
+        <td>${{item.price}}</td>
+        <td>
+          <a class="pay" href="{{site.paypal}}{{item.price}}usd" target="_blank"
+            >${{item.price}}</a
+          >
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
 
 <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -93,10 +90,10 @@ description: Pay for Chess Camp.
 <input type="number" id="day" min="1" max="5" placeholder="1" class="input" value="0">
 <br>
 <a id="pay" class="btn btn-success" href="">Pay <span id="amount"></span></a> -->
-<br>
+<br />
 <a class="pay" href="{{site.paypal}}" target="_blank">Custom Pay</a>
-<br>
-<br>
+<br />
+<br />
 <p>
   <strong>Amount also payable at the venue throgh cheque or cash</strong>
 </p>

@@ -1,0 +1,125 @@
+I"�<p>This is the first step to Inapuri’s Chess World. It is typically 45 mins to an hour, one time, one-on-one session.</p>
+
+<p>Each student is assessed in which level he/she stands. Am assessment is designed to determine what exactly they know and which topic they have mastered in.</p>
+
+<p>Once you enter the form you will be redirected to a payment page where you can make the payment of $29.50 <strike>$35.50</strike>.</p>
+
+<h2 id="available-slots">Available slots</h2>
+
+<div class="table-container">
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Day\Time</th>
+<th title="Field #2">10:00 AM</th>
+<th title="Field #3">11:00 AM</th>
+<th title="Field #4">4:00 PM</th>
+<th title="Field #5">5:00 PM</th>
+<th title="Field #6">5:30 PM</th>
+<th title="Field #7">6:30 PM</th>
+</tr></thead>
+<tbody><tr>
+<td>Monday</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>A</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>A</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody></table>
+</div>
+
+<p><strong>A</strong>: Available</p>
+
+<p><strong>–</strong>: Not Available</p>
+
+<div>
+ <script type="text/javascript">var submitted=false;</script>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://inapurichessworld.com/payment/';}"></iframe>
+<form id="wj-form" class="wj-contact rev" action="https://docs.google.com/forms/d/e/1FAIpQLSdcSssxNGawh2x_YRzovXPNh0e4U7Vyj6kYQDuwtpHrFlTNzQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+<input type="text" name="entry.2005620554" placeholder="Name*" class="input shadow" required="" />
+<input type="number" name="entry.456148767" placeholder="Age" class="input shadow" />
+<textarea type="text" name="entry.1065046570" rows="5" placeholder="School Address" class="input shadow"></textarea>
+<input type="email" name="entry.1079944046" placeholder="Email Address*" class="input shadow" required="" />
+<input type="text" name="entry.904361406" placeholder="Phone*" class="input shadow" required="" />
+<input type="text" name="entry.689397432" placeholder="Time Slot - Ex: Mon - 5:30pm" class="input shadow" required="" />
+<textarea type="text" name="entry.2099269038" rows="6" placeholder="Any Message?" class="input shadow"></textarea>
+<input type="hidden" name="_next" value="http://localhost:4000/payment/#go-here" />
+<div class="col-md-12">
+      <label for="subject">Solve this</label>
+      <span id="rnuma"></span> + <span id="rnumb"></span> =
+      <div class="input-group">
+        <input type="text" value="" id="testInput" class="input shadow" placeholder="Your answer" style="width: 50%" />
+        <span class="input-group-btn">
+            <button class="cards btn" type="button" id="mathTest">Go!</button>
+            </span>
+    </div>
+</div>
+</form>
+</div>
+
+<p>If you think that I have not responded in time then please feel free to contact me.</p>
+
+<div class="r">
+    <div class="c-6"><a href="mailto:kids.chessworld@gmail.com"><i class="fa fa-envelope"></i> &nbsp;kids.chessworld@gmail.com</a></div>
+    <div class="c-6"><a href="tel:+1-609-955-0355"><i class="fa fa-phone"></i> &nbsp;+1-609-955-0355</a></div>
+</div>
+
+<p></p>
+
+<link rel="prerender" href="http://localhost:4000/payment/" />
+
+:ET
